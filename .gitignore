@@ -1,1 +1,2 @@
+# add the file and folder that we don't want to sync while doing git commit
 .idea/

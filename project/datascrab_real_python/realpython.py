@@ -19,9 +19,5 @@ for job_element in job_elements:
     title_element = title_element.text.strip()
     company_element = company_element.text.strip()
     location_element = location_element.text.strip()
-
-    print(title_element)
-    print(company_element)
-    print(location_element)
-    print('\n')
-
+    st = 'title:  {}, company:  {}, location:  {}'.format(title_element,company_element,location_element)
+    print(st)
