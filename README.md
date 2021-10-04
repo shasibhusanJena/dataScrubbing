@@ -10,11 +10,16 @@ install all the required packages by running below command.
 
     pip install -r requirements.txt
 
-###datascrab_real_python
+## Example_1:-datascrab_real_python
 
-Here we fetching the data from the link and getting all the developer details and pointing on the console.
+Here we fetching the data from the link and getting all the developer list and then formatting the result.
     
     https://realpython.github.io/fake-jobs/
+## Example_2:-datascrab_cities_weather
+
+Here we fetching the data from the link and getting weather update for list of metro cities in india.
+    
+    https://mausam.imd.gov.in/
 
 in order to run above examples , first step would be to create a virtual Environment in a new folder location.
 
